@@ -1,11 +1,12 @@
 <template>
-  <div class="home">
-    <h1>Home Page</h1>
+  <div class="container">
+    <router-view/>
   </div>
 </template>
 
 <script>
+
 export default {
-  name: 'Home'
+  name: 'MainLayout'
 }
 </script>

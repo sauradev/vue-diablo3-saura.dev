@@ -13,7 +13,7 @@ export default {
   },
   actions: {
     getToken ({ commit }) {
-      // Paso 1
+      commit('loading/SET_LOADING', true, { root: true })
       oauth.getToken()
         .then(({ data }) => {
           // Paso 2: Guardamos el valor del token llamando a nuestra mutación
@@ -25,8 +25,7 @@ export default {
           console.log('Error OAuth: ', err)
         })
         .finally(() => {
-          // Por ahora no hacemos nada más aquí
-          console.log('Done!')
+          commit('loading/SET_LOADING', false, { root: true })
         })
     }
   }

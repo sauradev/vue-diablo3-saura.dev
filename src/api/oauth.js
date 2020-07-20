@@ -10,7 +10,6 @@ const API_URL = `https://${region}.battle.net/oauth/token`
 
 // Creamos la función getToken
 function getToken () {
-
   // Creamos un objeto de tipo 'FormData', que es un conjunto de pares clave/valor
   const body = new FormData()
 
@@ -35,4 +34,4 @@ function getToken () {
 // Exportamos la función para poder usarla más tarde
 export {
   getToken
-  }
+}
