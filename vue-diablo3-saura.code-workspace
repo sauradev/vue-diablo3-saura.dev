@@ -1,0 +1,35 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"files.encoding": "utf8",
+		"[php]": {
+			"files.encoding": "utf8"
+		},
+		"[JavaScript]": {
+			"files.encoding": "utf8"
+		},
+		"git.ignoreLimitWarning": true,
+		"mssql.saveAsCsv.encoding": "utf8",
+		"editor.multiCursorModifier": "ctrlCmd",
+		"window.zoomLevel": -1,
+		"explorer.confirmDelete": false,
+		"workbench.activityBar.visible": true,
+		"editor.minimap.enabled": false,
+		"diffEditor.ignoreTrimWhitespace": false,
+		"git.confirmSync": false,
+		"git.autofetch": true,
+		"terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+		"editor.suggestSelection": "first",
+		"sync.gist": "ecebab709dcba65182d4bfdb96109c76",
+		"editor.formatOnPaste": true,
+		"editor.formatOnSave": true,
+		"editor.tabSize": 2,
+		"editor.renderWhitespace": "all",
+		"editor.defaultFormatter": "esbenp.prettier-vscode",
+		"workbench.settings.editor": "json",
+	}
+}
