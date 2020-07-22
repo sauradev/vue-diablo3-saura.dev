@@ -13,6 +13,7 @@
           >
             <b-form-input
               id="input-text"
+              v-focus
               v-model="form.battleTag"
               type="text"
               size="lg"
