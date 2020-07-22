@@ -15,6 +15,6 @@
 <script>
 
 export default {
-  name: 'HeaderBar'
+  name: process.env.VUE_APP_TITLE
 }
 </script>
