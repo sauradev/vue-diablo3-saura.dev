@@ -39,4 +39,10 @@ const router = new Router({
   routes
 })
 
+router.afterEach((to, from) => {
+  if (to.meta && to.meta.title) {
+    document.title = 'Diablo3 - Vue.js - Javier Saura'
+  }
+})
+
 export default router
