@@ -9,7 +9,7 @@
             id="input-group-1"
             label="BattleTag:"
             label-for="input-text"
-            description="Format: YourProfile#1234"
+            description="Format: SuperRambo#2613"
           >
             <b-form-input
               id="input-text"
@@ -50,7 +50,7 @@ export default {
   data () {
     return {
       form: {
-        battleTag: '',
+        battleTag: 'SuperRambo#2613',
         region: 'eu'
       }
     }
